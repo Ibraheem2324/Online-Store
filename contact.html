@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Basic HTML 5-->
+        <meta charset="utf-8"><!--to support arabic letters-->
+        <meta name="author" content="Ibraheem Muzahem">
+        <meta name="description" content="Sports & fashion clothes ecommerce site"><!--meta author & description are VIP to SEO TO APPEAR ON FIRST RESULTS-->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"><!--for proper display in latest IE versions-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--to make our webpage responsive-->
+        <link rel="shortcut icon" href="images/user-1.png"><!--to add the website icon-->
+        
+        <!--My Code-->
+        <title>Contact - RedStore</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!--adding jQuery -->
+        <script type ="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+        
+            
+    </head>
+    
+    <body>
+        <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                    <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+            
+            
+            <div class="main">
+                
+                <h1>Contact</h1>
+        
+                <p > Lorem ipsum dolor sit amet, consectetur dipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur dipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            
+            </div>
+            
+<!-----------Contact Page------------->
+        
+        
+            <div class="contactDiv">
+                        
+            <form id="contactForm" action="contact.php" method="post">
+                
+                
+                <input id="email" type="email" class="form-control" placeholder="Email">
+                <br/>
+                <input id="subject" type="text" class="form-control" placeholder="Subject">
+                <br/>
+                
+                <textarea rows="8" placeholder="Enter your message"></textarea>
+                <br>
+                
+                <button type="submit" id="contactBtn">Send</button>
+                            
+            </form>    
+        </div>
+        
+            <div class="main">
+                <p>Tel: +9677658998</p>
+                <p>Email: Loremipsum@gmail.com</p>
+                <p>Location: Mukalla Hadhramout</p>
+
+            </div>
+                
+        </div>
+        
+    
+        
+        
+        
+        
+        <!---Footer---->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS Phones</p>
+                        <div class="app-logo">
+                            <a href=""><img src="images/play-store.png" alt="play-store"></a>
+                            <a href=""><img src="images/app-store.png" alt="app-store"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>Our purpose is to sustainably make the pleasure and benefits accessible to the Many.</p>
+                    </div>
+                    
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#">Blog Post</a></li>
+                            <li><a href="#">Retun Policy</a></li>
+                            <li><a href="#">Join Affiliate</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li><a href="">FaceBook</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Inistgram</a></li>
+                            <li><a href="">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy; Copyright 2021 - Ibraheem. All rights reserved. </p>
+            </div>
+        </div>
+    
+        
+        
+        
+        
+    
+        
+         
+
+    <script type="text/javascript">
+        /* js for togglemenu*/
+            
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                  MenuItems.style.maxHeight = "200px" 
+                }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+        
+        
+    </script>
+    </body>
+
+
+</html>

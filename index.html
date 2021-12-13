@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Basic HTML 5-->
+        <meta charset="utf-8"><!--to support arabic letters-->
+        <meta name="author" content="Ibraheem Muzahem">
+        <meta name="description" content="Sports & fashion clothes ecommerce site"><!--meta author & description are VIP to SEO TO APPEAR ON FIRST RESULTS-->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"><!--for proper display in latest IE versions-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--to make our webpage responsive-->
+        <link rel="shortcut icon" href="images/user-1.png"><!--to add the website icon-->
+        
+        <!--My Code-->
+        <title>RedStore | Ecommerce Site</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!--adding jQuery -->
+        <script type ="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+        
+            
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                    <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Give Your Workout A New Style</h1>
+                        <p>&nbsp;&nbsp;CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed.This  tutorial will teach you CSS from basic to advanced This  tutorial will teach you CSS from basic to advanced. CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed.This  tutorial will teach you CSS from basic to advanced This  tutorial will teach you CSS from basic to advanced</p>
+                        <a href="" class="btn">Explore Now &#8594;</a>
+                    </div>
+
+                    <div class="col-2">
+                        <img src='images/image1.png' alt="">
+                    </div>
+</div>        
+            </div>
+        </header>
+        
+        <!--Featured categories-->
+        
+        <div class="small-container">
+            <div class="categories">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/category-1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-2.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-3.jpg">
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+        
+        <!--Featured Products-->
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product%20details.html"><img src="images/product-1.jpg" alt=""></a>
+                    <a href="product%20details.html"><h4>Red Printed T-shirt</h4></a>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-0"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-2.jpg" alt="">
+                    <h4>Awesome Black Shoes</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-0"></i>
+                    </div>
+                    <p>$40.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-3.jpg" alt="">
+                    <h4>Sports Trousers</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-0"></i>
+                        <i class="fa fa-star-0"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-4.jpg" alt="">
+                    <h4>Purple T-shirt</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$55.00</p>
+                </div>
+            </div>
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-0"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-6.jpg" alt="">
+                    <h4>Awesome Black Shoes</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-0"></i>
+                    </div>
+                    <p>$40.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-7.jpg" alt="">
+                    <h4>Sports Trousers</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-0"></i>
+                        <i class="fa fa-star-0"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-8.jpg" alt="">
+                    <h4>Purple T-shirt</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$55.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-0"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Awesome Black Shoes</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-0"></i>
+                    </div>
+                    <p>$40.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-11.jpg" alt="">
+                    <h4>Sports Trousers</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-0"></i>
+                        <i class="fa fa-star-0"></i>
+                    </div>
+                    <p>$30.00</p>
+                </div>
+                
+                <div class="col-4">
+                    <img src="images/product-12.jpg" alt="">
+                    <h4>Purple T-shirt</h4>
+                    <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$55.00</p>
+                  </div>
+            </div>
+        </div>
+        <!--OFFER-->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/exclusive.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <P>Exclusively Available On RedStore</P>
+                        <H1>Smart Brand 4</H1>
+                        <small>Exclusively Available On RedStore Exclusively Available On RedStore Exclusively Available On RedStore Exclusively Available On RedStore </small> <br>
+                        <a href="" class="btn"> Buy Now &#8594;</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----testimonials---->
+        
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Bill Gates, born in 1955, American business executive, who serves as chairman of Microsoft Corporation.</p>
+                        <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </div>
+                        <img src="images/user-1.png" alt="">
+                        <h3>Sean Butler</h3>
+                    </div>
+                    
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Bill Gates, born in 1955, American business executive, who serves as chairman of Microsoft Corporation.</p>
+                        <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </div>
+                        <img src="images/user-2.png" alt="">
+                        <h3>Tom Jackson</h3>
+                    </div>
+                    
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Bill Gates, born in 1955, American business executive, who serves as chairman of Microsoft Corporation.</p>
+                        <div class="rating">
+                        <!--to add stars first link to CDN then use font awesome-->
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </div>
+                        <img src="images/user-3.png" alt="">
+                        <h3>Suzan Shawmi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----Brands---->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-coca-cola.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <!---Footer---->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS Phones</p>
+                        <div class="app-logo">
+                            <a href=""><img src="images/play-store.png" alt="play-store"></a>
+                            <a href=""><img src="images/app-store.png" alt="app-store"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>Our purpose is to sustainably make the pleasure and benefits accessible to the Many.</p>
+                    </div>
+                    
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#">Blog Post</a></li>
+                            <li><a href="#">Retun Policy</a></li>
+                            <li><a href="#">Join Affiliate</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li><a href="">FaceBook</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Inistgram</a></li>
+                            <li><a href="">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy; Copyright 2021 - Ibraheem. All rights reserved. </p>
+            </div>
+        </div>
+    
+        
+
+    <script type="text/javascript">
+        /* js for togglemenu*/
+            
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                  MenuItems.style.maxHeight = "200px" 
+                }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+        
+        
+    </script>
+    </body>
+
+
+</html>

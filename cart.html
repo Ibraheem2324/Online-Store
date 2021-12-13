@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Basic HTML 5-->
+        <meta charset="utf-8"><!--to support arabic letters-->
+        <meta name="author" content="Ibraheem Muzahem">
+        <meta name="description" content="Sports & fashion clothes"><!--meta author & description are VIP to SEO TO APPEAR ON FIRST RESULTS-->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"><!--for proper display in latest IE versions-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--to make our webpage responsive-->
+        <link rel="shortcut icon" href="images/user-1.png"><!--to add the website icon-->
+        
+        <!--My Code-->
+        <title>MyCart - RedStore</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!--adding jQuery -->
+        <script type ="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+        
+        <style>
+            .delete{
+                background: none;
+                color: red;
+                border: none;
+            }
+        </style>
+            
+    </head>
+    
+    <body>
+        <!-------Top Menu------>
+        <div class="container">
+            
+            <div class="navbar">
+                    <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                    <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+       
+        </div>
+        
+        <!---------------Cart Page------------->
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-1.jpg">
+                            <p>Red Printed T-Shirt &nbsp;</p>
+                            <small>Price: $25.00</small>
+                            <button type="button" class="delete">Remove</button>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-2.jpg">
+                            <p>Red Printed T-Shirt &nbsp;</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <button type="button" class="delete">Remove</button>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-3.jpg">
+                            <p>Red Printed T-Shirt &nbsp;</p>
+                            <small>Price: $30.00</small>
+                            <button type="button" class="delete">Remove</button>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$30.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-1.jpg">
+                            <p>Red Printed T-Shirt&nbsp;</p>
+                            <p>Price : $ <small>30.00</small></p>
+                            <button type="button" class="delete">Remove</button>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td class="subTotal"></td>
+                
+                </tr>
+            </table>
+            
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$200.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$30.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$230.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+      
+        
+        
+        <!---Footer---->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS Phones</p>
+                        <div class="app-logo">
+                            <a href=""><img src="images/play-store.png" alt="play-store"></a>
+                            <a href=""><img src="images/app-store.png" alt="app-store"></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>Our purpose is to sustainably make the pleasure and benefits accessible to the Many.</p>
+                    </div>
+                    
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">Coupons</a></li>
+                            <li><a href="#">Blog Post</a></li>
+                            <li><a href="#">Retun Policy</a></li>
+                            <li><a href="#">Join Affiliate</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li><a href="">FaceBook</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Inistgram</a></li>
+                            <li><a href="">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">&copy; Copyright 2021 - Ibraheem. All rights reserved. </p>
+            </div>
+        </div>
+    
+        
+        
+        
+        
+        
+        
+        
+        
+    <script type="text/javascript">
+        /* --------js for togglemenu-----*/
+            
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                  MenuItems.style.maxHeight = "200px" 
+                }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+        
+        
+        </script>
+        
+        <!-------Script for removing items --------->
+        
+        <script>
+            
+            $(".delete").click (function(event){
+                $(this).closest("tr").remove();
+            })
+            
+        </script>
+        
+        <!-------Script for getting subtotals items --------->
+        
+        <script>
+            
+            $(".subTotal").html = $(this).closest("small").html * $(this).closest("input").value;
+        </script>
+        
+
+    
+    </body>
+
+
+</html>
